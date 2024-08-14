@@ -54,5 +54,4 @@ Main_LoadServerSettings() {
 	SendRconCommand("hostname   "SERVER_HOSTNAME"");
 	SendRconCommand("mapname 	"SERVER_MAP"	");
 	SendRconCommand("weburl 	"SERVER_WEBSITE"");
-	SendRconCommand("password 420ZazaBlazer69");
 }
