@@ -282,23 +282,26 @@ main()
 	Attachments_LoadCustomModels();
 
 	Fine_LoadLabel() ;
-	Vehicle_LoadEntities ();
+	Vehicle_LoadEntities();
 	SavedFurni_LoadEntities();
-	Tune_LoadEntities() ;
-	Faction_LoadEntities ();
-	SprayTag_LoadEntities( );
-	Wounds_LoadEntities ( ) ;
+	Tune_LoadEntities();
+	Faction_LoadEntities();
+
+	SprayTag_LoadEntities();
+	Wounds_LoadEntities();
 	Emmet_LoadEntities(); // new
 	ScrapYard_LoadEntities();
 	Gate_LoadEntities();
 	Drugs_LoadEntities();
-	Jobs_Init() ;
-	Advert_Init() ;
+
+	Jobs_Init();
+	Advert_Init();
 	Minigames_LoadEntities();
 	RPRF_LoadEntities();
 	Respray_LoadEntities();
 	Toll_LoadEntities();
 	Impound_LoadEntities();
+
 	ActorRobbery_LoadEntities();
 	GangZone_LoadEntities();
 	Attachments_LoadEntities();
